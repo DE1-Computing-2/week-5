@@ -17,12 +17,15 @@ Then, let's declare what goes in it:
 Now Let's insert some example entries:
 
 `INSERT INTO contributors (last_name, first_name, city, state, zip, amount) VALUES ('Winfrey', 'Oprah', 'Chicago', 'IL', '60601', 500);
+
 INSERT INTO contributors (last_name, first_name, city, state, zip, amount) VALUES ('Chambers', 'Anne Cox', 'Atlanta', 'GA', '30301', 200);
+
 INSERT INTO contributors (last_name, first_name, city, state, zip, amount) VALUES ('Cathy', 'S. Truett', 'Atlanta', 'GA', '30301', 1200);`
 
 Let's inspect the contents a bit:
 
 `SELECT * FROM contributors;`
+
 `SELECT city, state FROM contributors;`
 
 
