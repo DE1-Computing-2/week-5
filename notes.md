@@ -1,4 +1,6 @@
-* SQLITE Lab
+# SQLITE Lab
 
-** Requirements: a Browser with SQLite Manager extension installed
-** Juppyter notebook set up and running
+## Requirements: a Browser with SQLite Manager extension installed
+
+## Juppyter notebook set up and running
+
