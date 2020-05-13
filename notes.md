@@ -11,9 +11,11 @@ Please install and run [Jupyter notebook](https://jupyter.org/). We are unable t
 First, let's create a new Database: call it anything, e.g., `mydatabase.sqlite`
 
 Then, let's declare what goes in it:
+
 `CREATE  TABLE "main"."contributors" ("id" INTEGER PRIMARY KEY  AUTOINCREMENT  NOT NULL , "last_name" VARCHAR, "first_name" VARCHAR, "city" VARCHAR, "state" VARCHAR, "zip" VARCHAR, "amount" INTEGER)`
 
 Now Let's insert some example entries:
+
 `INSERT INTO contributors (last_name, first_name, city, state, zip, amount) VALUES ('Winfrey', 'Oprah', 'Chicago', 'IL', '60601', 500);
 INSERT INTO contributors (last_name, first_name, city, state, zip, amount) VALUES ('Chambers', 'Anne Cox', 'Atlanta', 'GA', '30301', 200);
 INSERT INTO contributors (last_name, first_name, city, state, zip, amount) VALUES ('Cathy', 'S. Truett', 'Atlanta', 'GA', '30301', 1200);`
@@ -25,14 +27,17 @@ Let's inspect the contents a bit:
 
 
 Now let's add somethign that breaks things and see the effect:
+
 `INSERT INTO contributors (last_name, first_name, city, state, zip, amount) VALUES ('Hamed', 'Haddadi', 'London', 'UK', 'SW7', 100);`
 
 And re-inspetc things, or look for unique fields:
+
 `SELECT DISTINCT state FROM contributors;`
 
 `SELECT * from contributors WHERE state='GA';`
 
 Now let's try plotting something:
+
 `SELECT amount FROM contributors | import as myVar`
 
 `plot(myVar, "type=bar")`
