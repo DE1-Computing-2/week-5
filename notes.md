@@ -48,7 +48,7 @@ Now let's try plotting something:
 
 Now Download and save the active databse and let's export it.
 
-### You can alternatively download the database here.
+### You can alternatively download two sample database [here](https://github.com/DE1-Computing-2/week-5).
 
-## Code to run on the Jupyter notebook
+## Code to run on the Jupyter notebook also [here](https://github.com/DE1-Computing-2/week-5)
 
