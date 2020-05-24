@@ -1,7 +1,7 @@
 # SQLITE Lab
 
 ## Requirements: a Browser with SQLite Manager extension installed
-Use any browseer with extensions support (I use the [Brave browser](https://brave.com/) ofcourse), with [SQLite Manager](https://add0n.com/sqlite-manager.html). You can use FireFox or Chrome too..
+Use any browser with extensions support (I use the [Brave browser](https://brave.com/) ofcourse), with [SQLite Manager](https://add0n.com/sqlite-manager.html). You can use FireFox or Chrome too..
 
 ## Juppyter notebook set up and running
 Please install and run [Jupyter notebook](https://jupyter.org/). We are unable to provide tech support for running this on your machine. Alternatively simply use any Python development environment of your choice.
